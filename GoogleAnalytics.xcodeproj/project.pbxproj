@@ -8,12 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		786C6CFE1FBAE320008009FB /* GoogleAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6CFC1FBAE31F008009FB /* GoogleAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786C6D111FBAE4DB008009FB /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D071FBAE4DA008009FB /* GAIFields.h */; };
+		786C6D121FBAE4DB008009FB /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D081FBAE4DB008009FB /* GAILogger.h */; };
+		786C6D131FBAE4DB008009FB /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D091FBAE4DB008009FB /* GAITrackedViewController.h */; };
+		786C6D141FBAE4DB008009FB /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D0A1FBAE4DB008009FB /* GAIEcommercePromotion.h */; };
+		786C6D151FBAE4DB008009FB /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D0B1FBAE4DB008009FB /* GAIEcommerceProductAction.h */; };
+		786C6D161FBAE4DB008009FB /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D0C1FBAE4DB008009FB /* GAIEcommerceFields.h */; };
+		786C6D171FBAE4DB008009FB /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D0D1FBAE4DB008009FB /* GAIDictionaryBuilder.h */; };
+		786C6D181FBAE4DB008009FB /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D0E1FBAE4DB008009FB /* GAI.h */; };
+		786C6D191FBAE4DB008009FB /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D0F1FBAE4DB008009FB /* GAITracker.h */; };
+		786C6D1A1FBAE4DB008009FB /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 786C6D101FBAE4DB008009FB /* GAIEcommerceProduct.h */; };
+		786C6D1C1FBAE4E2008009FB /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 786C6D1B1FBAE4E2008009FB /* libGoogleAnalyticsServices.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		786C6CF91FBAE31F008009FB /* GoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		786C6CFC1FBAE31F008009FB /* GoogleAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAnalytics.h; sourceTree = "<group>"; };
 		786C6CFD1FBAE320008009FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786C6D071FBAE4DA008009FB /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		786C6D081FBAE4DB008009FB /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		786C6D091FBAE4DB008009FB /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		786C6D0A1FBAE4DB008009FB /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		786C6D0B1FBAE4DB008009FB /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		786C6D0C1FBAE4DB008009FB /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		786C6D0D1FBAE4DB008009FB /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		786C6D0E1FBAE4DB008009FB /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		786C6D0F1FBAE4DB008009FB /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		786C6D101FBAE4DB008009FB /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		786C6D1B1FBAE4E2008009FB /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		786C6D1D1FBAE531008009FB /* GoogleAnalytics.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GoogleAnalytics.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786C6D1C1FBAE4E2008009FB /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +54,9 @@
 		786C6CEF1FBAE31F008009FB = {
 			isa = PBXGroup;
 			children = (
+				786C6D1D1FBAE531008009FB /* GoogleAnalytics.podspec */,
+				786C6D061FBAE4A2008009FB /* Libraries */,
+				786C6D041FBAE421008009FB /* Headers */,
 				786C6CFB1FBAE31F008009FB /* GoogleAnalytics */,
 				786C6CFA1FBAE31F008009FB /* Products */,
 			);
@@ -52,6 +79,39 @@
 			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
+		786C6D041FBAE421008009FB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				786C6D051FBAE434008009FB /* Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		786C6D051FBAE434008009FB /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				786C6D0E1FBAE4DB008009FB /* GAI.h */,
+				786C6D0D1FBAE4DB008009FB /* GAIDictionaryBuilder.h */,
+				786C6D0C1FBAE4DB008009FB /* GAIEcommerceFields.h */,
+				786C6D101FBAE4DB008009FB /* GAIEcommerceProduct.h */,
+				786C6D0B1FBAE4DB008009FB /* GAIEcommerceProductAction.h */,
+				786C6D0A1FBAE4DB008009FB /* GAIEcommercePromotion.h */,
+				786C6D071FBAE4DA008009FB /* GAIFields.h */,
+				786C6D081FBAE4DB008009FB /* GAILogger.h */,
+				786C6D091FBAE4DB008009FB /* GAITrackedViewController.h */,
+				786C6D0F1FBAE4DB008009FB /* GAITracker.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		786C6D061FBAE4A2008009FB /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				786C6D1B1FBAE4E2008009FB /* libGoogleAnalyticsServices.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -59,7 +119,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				786C6D1A1FBAE4DB008009FB /* GAIEcommerceProduct.h in Headers */,
 				786C6CFE1FBAE320008009FB /* GoogleAnalytics.h in Headers */,
+				786C6D141FBAE4DB008009FB /* GAIEcommercePromotion.h in Headers */,
+				786C6D171FBAE4DB008009FB /* GAIDictionaryBuilder.h in Headers */,
+				786C6D191FBAE4DB008009FB /* GAITracker.h in Headers */,
+				786C6D181FBAE4DB008009FB /* GAI.h in Headers */,
+				786C6D161FBAE4DB008009FB /* GAIEcommerceFields.h in Headers */,
+				786C6D121FBAE4DB008009FB /* GAILogger.h in Headers */,
+				786C6D131FBAE4DB008009FB /* GAITrackedViewController.h in Headers */,
+				786C6D111FBAE4DB008009FB /* GAIFields.h in Headers */,
+				786C6D151FBAE4DB008009FB /* GAIEcommerceProductAction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +330,10 @@
 				INFOPLIST_FILE = GoogleAnalytics/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAnalytics/Libraries",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = wibmo.GoogleAnalytics;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -280,6 +354,10 @@
 				INFOPLIST_FILE = GoogleAnalytics/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAnalytics/Libraries",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = wibmo.GoogleAnalytics;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
